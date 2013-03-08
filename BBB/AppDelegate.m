@@ -18,6 +18,8 @@
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+    
+    // Add Comment Here 
     return YES;
 }
 							
